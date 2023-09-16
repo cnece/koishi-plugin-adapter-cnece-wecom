@@ -1,0 +1,33 @@
+{
+	"name": "@cnece/koishi-plugin-adapter-cnece-wecom",
+	"description": "企业微信客服适配器。",
+	"version": "0.0.1",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {},
+  "author": "LittleC <78701421@qq.com>",
+  "license": "MIT",
+	"dependencies": {
+		"@wecom/crypto": "^1.0.1",
+		"@koishijs/cache": "^2.0.0-alpha.0",
+		"crypto-random-string": "3.3.1",
+		"fast-xml-parser": "^4.0.6",
+		"file-type": "16.5.4",
+		"form-data": "^4.0.0",
+		"koishi-thirdeye": "^11.1.24",
+		"raw-body": "^2.5.1",
+		"ext2mime": "^1.0.1",
+		"koa-wechat-public": "^0.1.13",
+		"koa-xml-body": "^2.2.0",
+		"mime2ext": "^1.0.1",
+		"spark-nodejs":"^0.0.4"
+	},
+	"koishi": {
+		"category": "adapter",
+		"service": {
+			"implements": [
+				"adapter"
+			]
+		}
+	}
+}
